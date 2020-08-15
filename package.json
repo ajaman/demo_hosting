@@ -1,6 +1,6 @@
 {
   "name": "demo_hosting",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "This is demo hosting aws",
   "main": "index.js",
   "scripts": {
