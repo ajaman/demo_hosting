@@ -1,6 +1,9 @@
-var http = require('http');
+const express = require('express');
+const app = express();
+app.get('/', (req, res)=>{
+  res.send("Welcome to the home page baby");
+})
 const port = process.env.port || 8080
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World!');
-}).listen(port);
+app.listen(port, ()=>{
+    console.log("wazzup");
+});
